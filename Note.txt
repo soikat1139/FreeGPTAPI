@@ -1,0 +1,18 @@
+Testing For Potential New APIs 
+
+1. Model: GPT-3.5 Turbo Working Condition:Fine (No issues)  Comment:Pretty Fast (I guess) Rate:8/10;
+
+
+# import library
+from gpt4free import theb
+
+# simple streaming completion
+
+while True:
+	x = input()
+	for token in theb.Completion.create(x):
+		print(token, end='', flush=True)
+	print("")
+
+
+2.
